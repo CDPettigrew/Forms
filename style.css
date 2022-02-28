@@ -1,12 +1,62 @@
-.nav{
+body{
+    background-color: rgb(74, 116, 255);
+}
+
+nav{
     position:fixed;
     top: 0;
     right: 0;
-    width: 250px;
-    background-color: antiquewhite;
-    border: 2px solid black;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 2em;
+    padding: 15px;
+}
+
+.h1{
+    float: left;
+    margin-left: 50px;
 }
 
 .main{
+    background-color: white;
     text-align: center;
+    border: 3px solid grey;
+    margin: auto;
+    margin-top: 75px;
+    width: 350px;
+    height: 400px;
+}
+
+.input{
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 25px;
+}
+
+input[type="password"] {
+    width: 250px;
+    height: 25px;
+}
+
+.submit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 100px;
+    color: blue;
+}
+
+img{
+    border-radius: 150px;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
 }
