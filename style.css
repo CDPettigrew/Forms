@@ -5,12 +5,30 @@ body{
 nav{
     position:fixed;
     top: 0;
-    right: 0;
-    width: 100%;
+    left: 0;
+    width: 100vw;
     background-color: white;
+}
+
+nav ul {
+    padding-right: 1em;
+}
+
+.list{
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.nav-item{
+    color: white;
+}
+
+#menu {
     display: flex;
-    gap: 2em;
-    padding: 15px;
+    gap: 1em;
+    list-style-type: none;
+    justify-content: flex-end;
 }
 
 .h1{
